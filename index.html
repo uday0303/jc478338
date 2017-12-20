@@ -15,9 +15,9 @@
 
 
 
-  <div class="header">
+  <div class="header navbar">
 
-    <ul class="list" style="list-style-type:none">
+    <ul class="list" style="list-style-type:none ">
       <li style="padding:15px;margin:0px;"><img style="height:45px;" src="logo.png"></li>
 
       <li><a href="#about">About</a></li>
@@ -25,8 +25,10 @@
       <li><a href="#costumes">Costumes</a></li>
       <li><a href="#rules">Guidelines</a></li>
       <li><a href="#contact">Contact Us</a></li>
-      <li style="float:right; border-radius:20px;" ><input style="font-family:cursive;background: #2A88AD;padding: 8px 20px 8px 20px;border-radius:5px; color:white;" type="button" name="field3"  value="Login"/></li>
-      <li style="float:right" ><input type="email" name="field3"  placeholder="Password"/></li>
+
+      <li style="float:right;border-radius:20px";;   ><input  class="login" style="font-family:cursive;background: #2A88AD;padding: 8px 20px 8px 20px;border-radius:5px; color:white;" type="button" name="field3"  value="Login"/></li>
+
+      <li style="float:right" ><input type="password" name="field3"  placeholder="Password"/></li>
       <li style="float:right; " ><input type="email" name="field3"  placeholder="User name"/></li>
 
     </ul>
@@ -66,25 +68,19 @@
 
                 <div class="inner-wrap">
                     <label>Your Full Name <input type="text" name="field1" /></label>
+                    <label>Email Address <input type="email" name="field2" /></label>
+                    <label>Phone Number <input type="text" name="field3" /></label>
+                    <label>Password <input type="password" name="field4" /></label>
+                    <label>Re enter password <input type="password" name="field5" /></label>
 
-
-
-
-                    <label>Email Address <input type="email" name="field3" /></label>
-                    <label>Phone Number <input type="text" name="field4" /></label>
-
-
-
-
-                    <label>Password <input type="password" name="field5" /></label>
-                    <label>Confirm Password <input type="password" name="field6" /></label>
+                    <div class="button-section">
+                     <input type="submit" name="Sign Up" />
+                     <span class="privacy-policy" style="margin-left: -75px;">
+                     <input type="checkbox" name="field7">You agree to our Terms and Policy.
+                     </span>
+                    </div>
                 </div>
-                <div class="button-section">
-                 <input type="submit" name="Sign Up" />
-                 <span class="privacy-policy">
-                 <input type="checkbox" name="field7">You agree to our Terms and Policy.
-                 </span>
-                </div>
+
             </form>
             </div>
 
